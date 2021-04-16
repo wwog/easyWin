@@ -1,0 +1,53 @@
+{
+  "name": "easywin",
+  "author": "wwog",
+  "version": "0.2.7",
+  "description": "Provides Windows, processes and other methods that Node calls directly",
+  "keywords": [
+    "hWnd",
+    "ProcessId",
+    "win-api",
+    "WinApi",
+    "windows",
+    "window",
+    "gdiplus",
+    "win10",
+    "node-addon-api",
+    "hWnd",
+    "user32",
+    "process",
+    "win32",
+    "dll",
+    "file"
+  ],
+  "files": [
+    "dist",
+    "types",
+    "script",
+    "cppsrc",
+    "binding.gyp",
+    "ndraw.node",
+    "nfile.node",
+    "nwinuser.node",
+    "nprocess.node"
+  ],
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "homepage": "https://github.com/wwog/easyWin",
+  "repository": "wwog/easyWin",
+  "scripts": {
+    "tsc": "tsc -p src",
+    "build": "node-gyp build",
+    "rebuild": "node-gyp rebuild",
+    "move": "node script/move.js",
+    "postinstall": "npm run move",
+    "release": "npm run build && npm run move && npm run tsc",
+    "outAllfunction": "node script/outAllFunctions.js"
+  },
+  "dependencies": {
+    "node-addon-api": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31"
+  }
+}
