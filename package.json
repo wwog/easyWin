@@ -1,7 +1,7 @@
 {
   "name": "easywin",
   "author": "wwog",
-  "version": "0.2.7",
+  "version": "0.2.71",
   "description": "Provides Windows, processes and other methods that Node calls directly",
   "keywords": [
     "hWnd",
