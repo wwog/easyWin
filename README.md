@@ -155,9 +155,3 @@ To add
 ## AND
 
 Functions have been debugged, debugging platform Win10 20H2.Some of the new APIs are not available on Windows 8 or below.
-
-BUG fastest feedback channel: direct messages at 
-
-B站:https://space.bilibili.com/7234113.
-
-email:871782513@qq.com
