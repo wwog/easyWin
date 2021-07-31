@@ -161,5 +161,3 @@ let tree = process._processTree();
 并不会C/C++，功能更新也是按照自己意愿进行添加。有两个功能更是写了两天。
 
 不过自身也获得很多。功能都经过调试，调试平台 WIN10 20H2。部分新API在WIN8以下平台不可用。
-
-BUG反馈最快渠道:https://space.bilibili.com/7234113 私信。
