@@ -8,7 +8,6 @@
 
 ## 安装使用
 
-模块现在为本地编译，也提供了编译后文件(没有编译环境也能用)。
 
 ```javascript
 npm install easywin 
