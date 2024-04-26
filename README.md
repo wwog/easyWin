@@ -4,7 +4,6 @@
 
 ## INSTALL
 
-Modules are now compiled locally and are provided with compiled files (even without a build environment).
 
 ```javascript
 npm install easywin 
